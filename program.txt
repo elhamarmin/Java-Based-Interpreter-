@@ -1,0 +1,10 @@
+int number = 1
+%%
+for 2
+for 3
+for 5
+print number
+number = number + 1
+end for
+end for
+end for
