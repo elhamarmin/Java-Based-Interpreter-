@@ -19,8 +19,8 @@ This project is a Java-based interpreter for a custom programming language named
 ### **Installation**
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/FinalProject.git
-   cd FinalProject
+   git clone https://github.com/elhamarmin/Java-Based-Interpreter-.git
+   cd Java-Based-Interpreter-
    ```
 2. Ensure you have JavaFX set up in your IDE or environment if using JDK 8.
 
@@ -82,13 +82,16 @@ This code declares two integers `x` and `y`, adds their values, and prints the r
 ## **Running from Command Line**
 ### **Compile the code:**
 ```sh
-javac -d out src/com/example/xlang/*.java src/com/example/xlang/data/*.java src/com/example/xlang/operator/*.java
+javac -d out src/*.java src/data/*.java src/operator/*.java
 ```
 
 ### **Run the program:**
 ```sh
-java -cp out com.example.xlang.fx
+java -cp out src.fx
 ```
 
 ## **Running Tests**
 Unit tests can be added in a dedicated `test/` directory using JUnit.
+
+## **Contact**
+For any inquiries, contact [elhmarmin@gmail.com].
